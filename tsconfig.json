@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "target": "ESNext",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "lib": ["ESNext", "DOM", "DOM.Iterable", "ScriptHost"]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
